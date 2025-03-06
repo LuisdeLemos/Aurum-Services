@@ -9,7 +9,7 @@ export default function Contact() {
         <input type="text" placeholder="Tu nombre" className="w-full p-3 border rounded mb-4" />
         <input type="email" placeholder="Tu correo" className="w-full p-3 border rounded mb-4" />
         <textarea placeholder="Tu mensaje" className="w-full p-3 border rounded mb-4"></textarea>
-        <button className="w-full p-3 bg-gold-600 text-white rounded-lg shadow-lg hover:bg-gold-700 transition duration-300">Enviar</button>
+        <button className="w-full p-3 bg-gold-500 text-black rounded-lg shadow-lg hover:bg-gold-600 transition duration-300">Enviar</button>
       </form>
     </div>
   );
